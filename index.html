@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styleee.css" type="text/css" rel="stylesheet"/>
+<title>CSCI 165 - Fall 2025</title>
+
+<script>
+function showImage(imagePath) {
+  document.getElementById("displayImg").src = imagePath;
+}
+</script>
+</head>
+<body>
+<!----Requirement 1--->
+
+<h2>Webpage layout must be as given in Assignment</h2>
+<div class="page-border">
+
+<table>
+<tr>
+<td colspan="3" class="header">CSCI 165 -Fall 2025</td>
+
+</tr>
+<tr>
+    <td><img src="images\1.jpeg" alt="myphoto" width="100"border="5px  solid black";><p>Taranpreet Kaur<br>815942</p></td>
+    <td><img src="images\2.jpeg" alt="elephant" width="100"border="5px  solid black";></td>
+    <td><img src="images\3.jpeg" alt="bus" width="100" border="  5px solid black ";></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr> 
+</table>
+<!-----Requirement 2--->
+<div class="section">
+<div class="buttons">
+
+<button onclick="showImage('images/Taranpreet.jpeg')"> Your own photo</button><br><br><br>
+ <button onclick="showImage('images/Tiger.jpeg')">Tiger</button> 
+ </div> 
+ <div class="image-box"> <img id="displayImg" src="" alt="Selected Image"> 
+ </div>
+ </div>
+<!----Requirement 3--->
+<div class="hometown">
+<p class="p1"> My hometown is Kapurthala, a beautiful city in Punjab, India.</p>
+<p class="p2"> It is known for its royal palaces.</p>
+<p class="p3"> The city is peaceful and people are very cordial.</p>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
+
